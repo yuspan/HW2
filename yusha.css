@@ -1,37 +1,44 @@
-body {color:Orange;background-color:yellow;font-size:18pt;font-family:Veranda;Geneva,Arial,Helvetica,sans-serif;text-align:center}
-div	 {background-color:white;margin:0 auto;}
+html {margin:20px;}
+body {color:Orange;background-color:#E0E0E0;font-size:18pt;font-family:Veranda;Geneva,Arial,Helvetica,sans-serif;text-align:center;height:100%;margin:10px; padding:10px;border:5px dotted black}
+div	 {background-color:D8D8D8;margin:0px auto;}
 p {color:black;font-size:10pt;}
-h1 {color:Blue;font-size:24px;font-style:italic;font-weight:bold;text-align:center;}
-	.photo{
-			float:left;
-			border:2px solid red;
-			padding-top:10px;
-			padding-left:10px;
-			padding-right:10px;
-			padding-bottom:40px;
-			margin-right:10px;
-			margin-bottom:10px;
-			background-color:green;
-		}		
-		
-	#left_sidebar{
-			float:left;
-			border:3px dotted blue;
+h1 {color:Red;font-size:44px;font-weight:bold;text-align:center;}
+#nav li{display:inline; list-style-type:none; padding-right: 20px;background-color:yellow; margin:1px; }
+
+#header {background-color:orange;}
+
+	#left_sidebar {
+			position: absolute;
+			top:250px;
+			left:40px;
 			padding:0px;
 			margin:0px;
 			background-color:black;
 			width:250px;
 			height:410px;
+			border: 3px black;
+			overflow:hidden;
 		}
 		
 	#right_sidebar{
-			float:right;
-			border:3px dotted blue;
+			position: absolute;
+			left:auto;
+			right:40px;
+			top:250px;
 			padding:0px;
 			margin:0px;
 			background-color:black;
 			width:250px;
 			height:410px;
+			border:3px black; 
+			overflow:hidden;
 		}
 
-	
+	#main {
+			position:fixed;
+			left:290px;
+			right:290px;
+			background-color:white;
+			border:3px black;
+			overflow:auto;
+		}
