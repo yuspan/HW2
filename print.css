@@ -1,4 +1,4 @@
-#header, #footer {
+#header {
      display: none;
 }
 body {color:black; background-color:none;}
@@ -6,3 +6,5 @@ body {color:black; background-color:none;}
 display: none;
 }
 h2 {color: black;}
+#nav {display: none;}
+#printheader  {display: inline;}
