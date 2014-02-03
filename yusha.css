@@ -2,17 +2,17 @@ html {margin:20px 50px 5px 50px; background-color: white; height:100%;}
 body	 	{color:Black;
 			background-color:#E0E0E0;
 			font-size:12pt;
-			font-family:Veranda;Geneva,Arial,Helvetica,sans-serif;text-align:center;
+			font-family:Veranda,Geneva,Arial,Helvetica,sans-serif;text-align:center;
 			min-height:100%;
 			margin:0px; 
 			padding:0px;
 			
 			}
 
-div	 {background-color:D8D8D8;margin:0px auto;}
+div	 {;margin:0px auto;}
 p {color:black;font-size:10pt;}
 h1 {color:Black;font-size:44px;font-weight:bold;text-align:center;}
-#nav li{display:inline; list-style-type:none; padding-right: 0 px; margin:60px; text-align: center;}
+#nav li{display:inline; list-style-type:none; margin:60px; text-align: center;}
 #nav { background-color:Orange;}
 #resume{text-align: left; }
 h2 {color:orange; text-align: Left;}
@@ -38,24 +38,20 @@ h2 {color:orange; text-align: Left;}
 	#left_sidebar {
 			float:left;
 			display:inline; 
-			background-color:none;
+			
 			width:250px;
 			color:orange;
 			
-			
-			content:0px;
 		}
 		
 	#right_sidebar{
 			float:right;
 			display:inline; 
-			background-color:none;
+			
 			width:250px;
 			
 			margin: 0px; 
-			color:orange;
-			
-			content:0px;
+			color:orange
 		}
 
 	#main {
