@@ -16,7 +16,7 @@ h1 {color:Black;font-size:44px;font-weight:bold;text-align:center;}
 #nav { background-color:Orange;}
 #resume{text-align: left; }
 h2 {color:orange; text-align: Left;}
-
+#printheader {display:none;}
 	
 	#wrap {
 			margin: 0 auto;
